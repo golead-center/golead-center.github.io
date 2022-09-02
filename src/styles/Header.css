@@ -1,0 +1,22 @@
+.header-root{
+    display:flex;
+    background-color: rgb(238, 238, 238);
+    color:black;
+    width:100%;
+    height:12vh;
+    max-height:5cm;
+}
+
+.header-content{
+    display:flex;
+    width:50%;
+    min-width: 20cm;
+    max-width: 30cm;
+    height:12vh;
+    max-height:5cm;
+    justify-content: space-between;
+    margin: auto;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
