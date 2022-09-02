@@ -1,17 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.e1bdd7f5.css",
-    "main.js": "./static/js/main.f206dff3.js",
+    "main.css": "./static/css/main.626c26b8.css",
+    "main.js": "./static/js/main.577b66c2.js",
     "static/js/787.bc47c392.chunk.js": "./static/js/787.bc47c392.chunk.js",
+    "static/media/about-us.png": "./static/media/about-us.eb0c18a315ccf3feb08b.png",
+    "static/media/launch.jpg": "./static/media/launch.b05cceb66a34535084d3.jpg",
+    "static/media/move.jpg": "./static/media/move.a21632fa4f60d3f43738.jpg",
+    "static/media/activate.jpg": "./static/media/activate.a982626339dd6abff053.jpg",
     "static/media/goLEAD-white.png": "./static/media/goLEAD-white.5f4d8314a6e979c8e229.png",
     "static/media/goLEAD-black.png": "./static/media/goLEAD-black.86b4cc2a67fb952c7eed.png",
     "index.html": "./index.html",
-    "main.e1bdd7f5.css.map": "./static/css/main.e1bdd7f5.css.map",
-    "main.f206dff3.js.map": "./static/js/main.f206dff3.js.map",
+    "main.626c26b8.css.map": "./static/css/main.626c26b8.css.map",
+    "main.577b66c2.js.map": "./static/js/main.577b66c2.js.map",
     "787.bc47c392.chunk.js.map": "./static/js/787.bc47c392.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e1bdd7f5.css",
-    "static/js/main.f206dff3.js"
+    "static/css/main.626c26b8.css",
+    "static/js/main.577b66c2.js"
   ]
 }
