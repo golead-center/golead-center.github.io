@@ -5,7 +5,7 @@ function AboutUs() {
     <div className = "body-root">
         <div className='body-content'>
             <div className="banner">
-            <img src={require("../images/about-us.png")} alt="goLEAD" height="auto" width="100%"></img>
+                <img src={require("../images/about-us.png")} alt="goLEAD" height="auto" width="100%"></img>
             </div>
             <div className="break"></div>
 

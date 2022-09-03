@@ -1,0 +1,89 @@
+.tab-content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    background: white;
+    word-break: keep-all;
+}
+  
+.bloc-tabs {
+    display: flex;
+    flex-direction: column;
+}
+.tabs {
+    padding: 0.5rem;
+    width: 5rem;
+    min-height: 3rem;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 0.8rem;
+}
+
+.presentation-tabs {
+    padding: 0.5rem;
+    width: 12rem;
+    min-height: 2rem;
+    background: rgba(128, 128, 128, 0.075);
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.active-tabs  {
+    border-style: solid;
+    border-color: white;
+    border-left-color: rgb(150, 0, 0);
+    border-left-width: 0.2rem;
+    background-color: white;
+    color:black;
+}
+
+.presentation-active-tabs  {
+    border-style: solid;
+    border-color: white;
+    border-left-color: rgb(150, 0, 0);
+    border-left-width: 0.2rem;
+    background-color: white;
+    color:black;
+    font-weight: bold;
+}
+
+button {
+    border: none;
+
+}
+
+.content-tabs {
+    flex-grow: 1;
+}
+
+.content {
+    background: white;
+    padding: 1rem;
+    display: none;
+    font-size: 0.9rem;
+}
+.content h2 {
+    margin: 0;
+}
+
+.active-content {
+    display: block;
+}
+
+.presentation-one-panel{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1rem;
+    text-align: center;
+}

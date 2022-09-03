@@ -37,7 +37,7 @@
     box-shadow: 0 9px #999;
  }
   
- .button:hover {background-color: #490a08}
+.button:hover {background-color: #490a08}
   
 .button:active {
     background-color: #d45555;
@@ -56,19 +56,86 @@
     margin-bottom: 1rem;
 }
 
- .two-panel{
-    width: 49%;
-    padding-left: 0.5%;
-    padding-right: 0.5%;
- }
+.winners-one-panel{
+    width: 98%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
 
- .three-panel{
+.winners-one-panel img{
+    width: 50%;
+}
+
+.winners-two-panel{
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.two-panel{
+    width: 48%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin-bottom: 1rem;
+}
+
+.people-two-panel-left{
+    width: 18%;
+    padding: 1%;
+    margin-bottom: 2rem;
+}
+
+.people-two-panel-right{
+    width: 78%;
+    min-height: 23rem;
+    margin-bottom: 2rem;
+}
+
+.people-name{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.people-title{
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    font-size: 0.9rem;
+}
+
+.three-panel{
     width: 32%;
     padding-left: 0.5%;
     padding-right: 0.5%;
- }
+}
 
- .people-img{
+.side-panel{
+    width: 20%;
+    padding-top: 1rem;
+}
+
+.content-with-side-panel{
+    display: flex;
+    flex-wrap: wrap;
+    width: 78%;
+    height: 100%;
+    padding: 1%;
+}
+
+.content-with-side-panel hr{
+    width:100%;
+    margin-bottom: 2rem;
+}
+
+.people-img{
     height: auto; 
-    width: 40%;
- }
+    width: 100%;
+}
+
+.body-link{
+    color:black;
+    text-decoration: underline;
+}

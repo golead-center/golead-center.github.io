@@ -1,9 +1,12 @@
 import '../styles/Body.css'
+import PresentationSideNavbar from '../components/PresentationsSideNavbar';
 
 function Presentations() {
   return (
-    <div>
-      Presentations
+    <div className = "body-root">
+      <div className='body-content'>
+        <PresentationSideNavbar />
+      </div>
     </div>
   );
 }

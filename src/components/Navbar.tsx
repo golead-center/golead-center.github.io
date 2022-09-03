@@ -8,7 +8,7 @@ export default function Navbar(){
             <ul>
                 <ActiveLink to="/">Home</ActiveLink>
                 <ActiveLink to="/about-us">About Us</ActiveLink>
-                <ActiveLink to="/people">People</ActiveLink>
+                <ActiveLink to="/people/facilitators">People</ActiveLink>
                 <ActiveLink to="/programs">Programs</ActiveLink>
                 <ActiveLink to="/get-involved">Get Involved</ActiveLink>
                 <ActiveLink to="/contact-us">Contact Us</ActiveLink>
@@ -21,7 +21,7 @@ export default function Navbar(){
 
 function ActiveLink({ to, children, ...props }: any){
     const resolvedPath = useResolvedPath(to)
-    const isActive = useMatch({ path: resolvedPath.pathname, end: true })
+    const isActive = useMatch({ path: resolvedPath.pathname})
     return(
         <li className={isActive ? "active" : ""}>
             <Link to={to} {...props}>

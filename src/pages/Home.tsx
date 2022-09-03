@@ -1,18 +1,12 @@
 import '../styles/Body.css'
 
+import RegistrationPanel from '../components/RegistrationPanel';
+
 function Home() {
   return(
     <div className = "body-root">
         <div className='body-content'>
-            <div>
-                <h2>We work collaboratively to support and empower people to set and achieve their goals to better the world.</h2>
-            </div>
-            <div className="break"></div>
-
-            <div className="center">
-                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=cZYxzedSaEqvqfz4-J8J6ot35iQt7NRNvhM_tlElNN5UOTJHSjdXM1A2QzNXTENXRU8xN0pPS0IyUCQlQCN0PWcu" className="button">Move Fall 2022 Registration is now open!</a>
-            </div>
-            <div className="break"></div>
+            <RegistrationPanel />
 
             <div>
                 <h1>Move</h1>
