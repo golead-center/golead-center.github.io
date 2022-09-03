@@ -30,11 +30,11 @@ function AboutUs() {
             </div>
             <div className="break"></div>
 
-            <div className="panel">
+            <div className="two-panel">
                 <h1>Mission & Vision</h1>
                 <p>goLEAD serves as a gathering point, a resource, and a project development incubator for those in the community who seek to affect local and global change. We work collaboratively to support and empower people to set and achieve their goals to better the world. In doing so we will train future leaders, expose students to meaningful challenges, and strengthen network ties.</p>
             </div>
-            <div className="panel">
+            <div className="two-panel">
                 <h1>Our Values</h1>
                 <ul>
                     <li>We strive for excellence.</li>
