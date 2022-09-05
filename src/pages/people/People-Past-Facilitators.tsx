@@ -5,6 +5,7 @@ import NateQuitoriano from './people-bio/nate-quitoriano';
 import SidneyOmelon from './people-bio/sidney-omelon';
 import AlexLiepins from './people-bio/alex-liepins';
 import LarissaJarvis from './people-bio/larissa-jarvis';
+import HeatherMcShane from './people-bio/heather-mcshane';
 
 function PastFacilitators() {
   return (
@@ -27,46 +28,13 @@ function PastFacilitators() {
           <div className="break"></div>
 
           <div className="people-two-panel-left">
-            <img className="people-img" src={require("../../images/facilitators/nate-quitoriano.jpg")} alt="nate-quitoriano"></img>
+            <img className="people-img" src={require("../../images/facilitators/heather-mcshane.jpg")} alt="heather-mcshane"></img>
           </div>
           <div className="people-two-panel-right">
-            <h2 className='people-name'>Nate Quitoriano</h2>
-            <p className='people-title'>Associate Professor<br/>
-                                        Mining and Materials Engineering</p>
-            <NateQuitoriano />
-          </div>
-          <div className="break"></div>
-          
-          <div className="people-two-panel-left">
-            <img className="people-img" src={require("../../images/facilitators/sidney-omelon.jpg")} alt="sidney-omelon"></img>
-          </div>
-          <div className="people-two-panel-right">
-            <h2 className='people-name'>Sidney Omelon</h2>
-            <p className='people-title'>Associate Professor<br/>
-                                        Mining and Materials Engineering</p>
-            <SidneyOmelon />
-          </div>
-          <div className="break"></div>
-
-          <div className="people-two-panel-left">
-            <img className="people-img" src={require("../../images/facilitators/alex-liepins.jpg")} alt="alex-liepins"></img>
-          </div>
-          <div className="people-two-panel-right">
-            <h2 className='people-name'>Alex Liepins</h2>
-            <p className='people-title'>Academic Associate<br/>
-                                        Teaching and Learning Services (TLS)</p>
-            <AlexLiepins />
-          </div>
-          <div className="break"></div>
-
-          <div className="people-two-panel-left">
-            <img className="people-img" src={require("../../images/facilitators/larissa-jarvis.jpg")} alt="larissa-jarvis"></img>
-          </div>
-          <div className="people-two-panel-right">
-            <h2 className='people-name'>Larissa Jarvis</h2>
-            <p className='people-title'>Research Associate<br/>
-                                        McGill Sustainability Systems Initiative (MSSI)</p>
-            <LarissaJarvis />
+            <h2 className='people-name'>Heather McShane</h2>
+            <p className='people-title'>Program Director<br/>
+                                        McGill Sustainability Systems Initiative</p>
+            <HeatherMcShane />
           </div>
           <div className="break"></div>
 
