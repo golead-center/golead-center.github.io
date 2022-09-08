@@ -23,11 +23,11 @@ function ContactUs() {
           <div className="three-panel">
             <h1>Social Media</h1>
             <p>Email<br/>
-               <a className="body-link" href="mailto:go.lead@mcgill.ca">go.lead@mcgill.ca</a></p>
+               <a className="body-link" href="mailto:golead.center@gmail.com">golead.center@gmail.com</a></p>
             <p>Facebook<br/>
                <a className="body-link" href="http://www.facebook.com/goLEAD.start">http://www.facebook.com/goLEAD.start</a></p>
             <p>LinkedIn<br/>
-               <a className="body-link" href="http://www.linkedin.com/company/golead-mcgill/">http://www.linkedin.com/company/golead-mcgill/</a></p>
+               <a className="body-link" href="http://www.linkedin.com/company/golead-change/">http://www.linkedin.com/company/golead-change/</a></p>
           </div>
         </div>
     </div>
